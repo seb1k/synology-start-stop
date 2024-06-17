@@ -26,7 +26,7 @@ Use the Start Stop button to turn on and off your synology from the web page.
 > Boot and shutdown can take up to 3 minutes
 
 
-# Shutdown synology with curl API
+# Shutdown synology with curl API in bash
 
     sid=$(curl --header 'Content-Type: application/x-www-form-urlencoded' \
     --data-urlencode'api=SYNO.API.Auth' \
